@@ -1,5 +1,13 @@
 {
-    "require": {
-        "mpdf/mpdf": "^8.0"
-    }
+    "name": "syawalmuiss/rpl",
+    "description": "Tugas RPL 2020/2021",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "syawalmuis",
+            "email": "msyawalmuis@gmail.com"
+        }
+    ],
+    "require": {}
 }
