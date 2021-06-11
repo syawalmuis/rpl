@@ -13,14 +13,14 @@
 </div>
 <hr>
 <div class="row">
-    <div class="col-sm-2 ps-0 pe-0 pt-0 bg-secondary" style="padding-bottom: 50%;">
+    <div class="col-sm-2 ps-0 pe-0 pt-0 bg-light" style="padding-bottom: 30%;">
         <div class="ps-3 bg-warning bg-gradient">
             <h5>1. Pendaftaran</h5>
         </div>
     </div>
 
     <div class="col-sm-10">
-        <div class="card bg-secondary text-white  pt-3 pb-4">
+        <div class="card bg-light text-dark  pt-3 pb-4">
             <div class="row">
                 <div class="col-sm-6">
                     <form action="">
@@ -199,6 +199,104 @@
                         </div>
                     </form>
                 </div>
+
+                <!-- col ke 2 -->
+                <div class="col-sm-6">
+                    <!-- nomor pendaftarn -->
+                    <div class="pe-5">
+                        <div class="row">
+                            <div class="col-sm-4 offset-5" align="right">
+                                <span style="font-size: small;">No pendaftanran</span>
+                            </div>
+                            <div class="col-sm-1">
+                                <span>:</span>
+                            </div>
+                            <div class="col-sm-2" style="padding-right: 3.5%;">
+                                <input type="text" class="form-control form-control-sm">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end nomor pendaftarn -->
+                    <div class="ps-5 pt-5">
+                        <!-- jenis kelamin -->
+                        <div class="row py-2 ps-4 align-item-center" align="left">
+                            <div class="col-sm-4">
+                                <label for="">Jenis Kelamin*)</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <span>:</span>
+                            </div>
+                            <div class="col-sm-6" style="padding-right: 20%;">
+                                <select name="jenis-kelamin" id="jenis-kelamin" class="form-select form-select-sm">
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- end jenis kelamin -->
+
+
+                        <!-- Agama -->
+                        <div class="row py-2 ps-4 align-item-center" align="left">
+                            <div class="col-sm-4">
+                                <label for="">A g a m a*)</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <span>:</span>
+                            </div>
+                            <div class="col-sm-6" style="padding-right: 15%;">
+                                <select name="jenis-kelamin" id="jenis-kelamin" class="form-select form-select-sm">
+                                    <option value="ISALM">ISALM</option>
+                                    <option value="KRISTEN">KRISTEN</option>
+                                    <option value="KATOLIK">KATOLIK</option>
+                                    <option value="HINDU">HINDU</option>
+                                    <option value="BUDDHA">BUDDHA</option>
+                                    <option value="KONGHUCU">KONGHUCU</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- End Agama -->
+
+                        <!-- nomor hp -->
+                        <div class="row py-2 ps-4 align-item-center" align="left">
+                            <div class="col-sm-4">
+                                <label for="">Nomor Hp*)</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <span>:</span>
+                            </div>
+                            <div class="col-sm-6" style="padding-right: 15%;">
+                                <input type="text" class="form-control form-control-sm" placeholder="Masukkan no. hp">
+                            </div>
+                        </div>
+                        <!-- end nomor hp -->
+
+                        <!-- email -->
+                        <div class="row py-2 ps-4 align-item-center" align="left">
+                            <div class="col-sm-4">
+                                <label for="">Email</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <span>:</span>
+                            </div>
+                            <div class="col-sm-6" style="padding-right: 5%;">
+                                <input type="text" class="form-control form-control-sm" placeholder="Masukkan email">
+                            </div>
+                        </div>
+                        <!-- end email -->
+
+                        <!-- tombol simpan dan cetak data -->
+                        <div align="right" class="me-5 pe-2">
+                            <div style="margin-top:16.5rem">
+                                <button class="me-5 btn btn-primary shadow-lg rounded">SIMPAN</button>
+                                <a class="btn btn-dark shadow-lg rounded">CEK DATA</a>
+                            </div>
+                        </div>
+                        <!-- end tombol simpan dan cetak data -->
+                    </div>
+                </div>
+
+                <!-- end col ke 2 -->
             </div>
         </div>
     </div>
