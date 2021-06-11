@@ -14,7 +14,7 @@
 <hr>
 <div class="row">
     <div class="col-sm-2 ps-0 pe-0 pt-0 bg-light" style="padding-bottom: 30%;">
-        <div class="ps-3 bg-warning bg-gradient">
+        <div class="ps-3 bg-secondary text-light bg-gradient">
             <h5>1. Pendaftaran</h5>
         </div>
     </div>
@@ -289,7 +289,7 @@
                         <div align="right" class="me-5 pe-2">
                             <div style="margin-top:16.5rem">
                                 <button class="me-5 btn btn-primary shadow-lg rounded">SIMPAN</button>
-                                <a class="btn btn-dark shadow-lg rounded">CEK DATA</a>
+                                <a href="<?= BASEURL ?>/register/check" class="btn btn-dark shadow-lg rounded">CEK DATA</a>
                             </div>
                         </div>
                         <!-- end tombol simpan dan cetak data -->

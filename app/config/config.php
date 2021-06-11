@@ -10,4 +10,4 @@ define('BASEURL', 'http://localhost/rpl/public');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'apotek_x');
+define('DB_NAME', 'rpl');
